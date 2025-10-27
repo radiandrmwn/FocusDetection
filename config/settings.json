@@ -1,0 +1,49 @@
+{
+  "timer": {
+    "work_duration": 25,
+    "short_break_duration": 5,
+    "long_break_duration": 15,
+    "sessions_until_long_break": 4,
+    "daily_goal": 8
+  },
+  "camera": {
+    "camera_index": 0,
+    "fps": 30,
+    "width": 640,
+    "height": 480
+  },
+  "detection": {
+    "face_scale_factor": 1.1,
+    "face_min_neighbors": 5,
+    "face_min_size": [
+      60,
+      60
+    ],
+    "eye_scale_factor": 1.05,
+    "eye_min_neighbors": 5,
+    "eye_min_size": [
+      20,
+      20
+    ],
+    "min_eyes_for_focus": 2
+  },
+  "ui": {
+    "theme": "dark",
+    "show_camera_feed": true,
+    "minimize_to_tray": true,
+    "start_minimized": false,
+    "window_width": 1400,
+    "window_height": 800
+  },
+  "notifications": {
+    "sound_enabled": true,
+    "desktop_notifications": true,
+    "break_reminders": true,
+    "session_complete_sound": "default"
+  },
+  "data": {
+    "auto_save": true,
+    "data_retention_days": 90,
+    "export_format": "csv"
+  }
+}
