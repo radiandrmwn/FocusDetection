@@ -37,6 +37,10 @@ wheels/
 # Session data (optional - remove if you want to track history)
 focus_history.json
 
+# Logs
+logs/
+*.log
+
 # OS
 .DS_Store
 Thumbs.db
